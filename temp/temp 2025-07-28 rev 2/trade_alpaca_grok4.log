@@ -1,0 +1,137 @@
+2025-07-28 14:54:05,655 - Logging                   | File and Stream handlers                :         OK
+2025-07-28 14:54:05,656 - 
+================================================================================
+2025-07-28 14:54:05,656 -                               Cooldown Logic Check                              
+2025-07-28 14:54:05,656 - ================================================================================
+
+2025-07-28 14:54:05,661 - Cooldown                  | COOLDOWN_SECONDS and last_trade_time    :         OK
+2025-07-28 14:54:05,661 - 
+================================================================================
+2025-07-28 14:54:05,661 -                              Trade Filtering Check                              
+2025-07-28 14:54:05,661 - ================================================================================
+
+2025-07-28 14:54:05,661 - Trade Filtering           | time_threshold and datetime             :         OK
+2025-07-28 14:54:05,662 - 
+================================================================================
+2025-07-28 14:54:05,662 -                          Fetch Bar Data Signature Check                         
+2025-07-28 14:54:05,662 - ================================================================================
+
+2025-07-28 14:54:05,662 - Signature                 | fetch_bar_data                          :         OK
+2025-07-28 14:54:05,662 - 
+================================================================================
+2025-07-28 14:54:05,662 -                              Summary of All Checks                              
+2025-07-28 14:54:05,662 - ================================================================================
+
+2025-07-28 14:54:05,681 - 
+       Category                                      Check   Status          Details
+   Dependencies                                     pandas       OK                 
+   Dependencies                                      numpy       OK                 
+   Dependencies                                    sklearn       OK                 
+   Dependencies                                     alpaca       OK                 
+   Dependencies                                    aiohttp       OK                 
+   Dependencies                                     dotenv       OK                 
+   Dependencies                                 matplotlib       OK                 
+    Environment                                  .env file       OK All keys present
+        Modules                           Syntax in config       OK                 
+   Dependencies                               np in config Not Used                 
+   Dependencies                               pd in config Not Used                 
+   Dependencies                              plt in config Not Used                 
+        Modules                              Import config       OK                 
+        Modules                              Item: SYMBOLS       OK             list
+        Modules                      Item: SEQUENCE_LENGTH       OK              int
+        Modules                      Item: UPPER_THRESHOLD       OK            float
+        Modules                      Item: LOWER_THRESHOLD       OK            float
+        Modules                  Item: ADJUSTMENT_INTERVAL       OK              int
+        Modules                     Item: MAX_POSITION_PCT       OK            float
+        Modules                           Item: MAX_EQUITY       OK            float
+        Modules                        Item: STOP_LOSS_PCT       OK            float
+        Modules                      Item: TAKE_PROFIT_PCT       OK            float
+        Modules                         Item: TRAILING_PCT       OK            float
+        Modules                            Item: TIMEFRAME       OK              str
+        Modules                                  Item: URL       OK              str
+        Modules                          Item: XAI_API_KEY       OK              str
+        Modules                       Item: ALPACA_API_KEY       OK              str
+        Modules                    Item: ALPACA_API_SECRET       OK              str
+        Modules                           Item: TRADE_MODE       OK              str
+        Modules                       Item: open_positions       OK             dict
+        Modules                            Item: sl_prices       OK             dict
+        Modules                            Item: tp_prices       OK             dict
+        Modules                     Item: NUM_DAYS_HISTORY       OK              int
+        Modules                            Items in config  Missing    BACKTEST_MODE
+        Modules                       Syntax in data_utils       OK                 
+   Dependencies                           np in data_utils       OK                 
+   Dependencies                           pd in data_utils       OK                 
+   Dependencies                          plt in data_utils Not Used                 
+ Config Imports                                 data_utils       OK                 
+        Modules                          Import data_utils       OK                 
+        Modules                       Item: fetch_bar_data       OK    Sync function
+        Modules                     Item: fetch_daily_data       OK    Sync function
+        Modules                  Item: prepare_grok4_input       OK    Sync function
+        Modules                    All items in data_utils       OK                 
+        Modules                   Syntax in trade_analysis       OK                 
+   Dependencies                       np in trade_analysis Not Used                 
+   Dependencies                       pd in trade_analysis Not Used                 
+   Dependencies                      plt in trade_analysis       OK                 
+        Modules                      Import trade_analysis       OK                 
+        Modules                       Item: analyze_trades       OK    Sync function
+        Modules                All items in trade_analysis       OK                 
+        Modules                       Syntax in prediction       OK                 
+   Dependencies                           np in prediction       OK                 
+   Dependencies                           pd in prediction Not Used                 
+   Dependencies                          plt in prediction Not Used                 
+ Config Imports                                 prediction       OK                 
+        Modules                          Import prediction       OK                 
+        Modules Item: get_grok4_prediction_and_adjustments       OK   Async function
+        Modules                      Item: get_x_sentiment       OK   Async function
+        Modules                    All items in prediction       OK                 
+        Modules                     Syntax in trading_loop       OK                 
+   Dependencies                         np in trading_loop Not Used                 
+   Dependencies                         pd in trading_loop Not Used                 
+   Dependencies                        plt in trading_loop Not Used                 
+ Config Imports                               trading_loop       OK                 
+        Modules                        Import trading_loop       OK                 
+        Modules                        Item: trading_logic       OK   Async function
+        Modules                  All items in trading_loop       OK                 
+        Modules                  Syntax in order_execution       OK                 
+   Dependencies                      np in order_execution Not Used                 
+   Dependencies                      pd in order_execution Not Used                 
+   Dependencies                     plt in order_execution Not Used                 
+ Config Imports                            order_execution       OK                 
+        Modules                     Import order_execution       OK                 
+        Modules                         Item: get_position       OK   Async function
+        Modules                        Item: execute_order       OK   Async function
+        Modules                      Item: poll_order_fill       OK   Async function
+        Modules                      Item: update_position       OK   Async function
+        Modules               All items in order_execution       OK                 
+        Modules                         Syntax in backtest       OK                 
+   Dependencies                             np in backtest Not Used                 
+   Dependencies                             pd in backtest Not Used                 
+   Dependencies                            plt in backtest Not Used                 
+ Config Imports                                   backtest       OK                 
+        Modules                            Import backtest       OK                 
+        Modules                             Item: backtest       OK   Async function
+        Modules                    Item: MockTradingClient       OK             type
+        Modules                          Item: MockAccount       OK             type
+        Modules                            Item: MockClock       OK             type
+        Modules                      All items in backtest       OK                 
+     Parameters                            UPPER_THRESHOLD       OK      Value: 0.65
+     Parameters                            LOWER_THRESHOLD       OK      Value: 0.35
+     Parameters                              STOP_LOSS_PCT       OK       Value: 0.1
+     Parameters                            TAKE_PROFIT_PCT       OK      Value: 0.06
+     Parameters                               TRAILING_PCT       OK      Value: 0.02
+     Parameters                           MAX_POSITION_PCT       OK       Value: 0.1
+     Parameters                            SEQUENCE_LENGTH       OK        Value: 15
+     Parameters                        ADJUSTMENT_INTERVAL       OK        Value: 30
+     Parameters                           NUM_DAYS_HISTORY       OK         Value: 5
+     Parameters                                 MAX_EQUITY       OK  Value: 100000.0
+     Parameters                                 TRADE_MODE       OK  Selected: paper
+   xAI Endpoint       https://api.x.ai/v1/chat/completions       OK                 
+   Connectivity                                    xAI API       OK       Status 200
+          Model                    grok-3 in prediction.py       OK                 
+        Logging                   File and Stream handlers       OK                 
+       Cooldown       COOLDOWN_SECONDS and last_trade_time       OK                 
+Trade Filtering                time_threshold and datetime       OK                 
+      Signature                             fetch_bar_data       OK                 
+2025-07-28 14:54:05,682 - 
+Consistency checks failed with 1 errors:
+2025-07-28 14:54:05,682 -   Error 1: Missing items in config: BACKTEST_MODE

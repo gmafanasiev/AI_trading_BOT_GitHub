@@ -1,0 +1,96 @@
+2025-07-26 14:05:34,010 - Connected to Alpaca Paper Trading API
+2025-07-26 14:05:34,011 - Starting AI-powered day trader for ['AAPL'] with Grok 3 and Alpaca
+2025-07-26 14:05:34,011 - Starting trading session at 2025-07-26 14:05:34 with duration: 2 minutes
+2025-07-26 14:05:34,011 - Subscribed to bars for ['AAPL']
+2025-07-26 14:05:34,086 - started data stream
+2025-07-26 14:05:34,086 - Fetched 390 bars for AAPL, price: $213.96
+2025-07-26 14:05:34,087 - starting data websocket connection
+2025-07-26 14:05:34,087 - connecting to wss://stream.data.alpaca.markets/v2/iex
+2025-07-26 14:05:34,087 - Current position for AAPL: 0 shares
+2025-07-26 14:05:34,162 - connected to wss://stream.data.alpaca.markets/v2/iex
+2025-07-26 14:05:34,169 - subscribed to bars: ['AAPL']
+2025-07-26 14:05:34,610 - Equity plot saved to equity_plot.png
+2025-07-26 14:05:34,625 - Fetched only 0 bars for AAPL (less than requested 390)
+2025-07-26 14:05:34,625 - Error fetching data for AAPL: single positional indexer is out-of-bounds
+2025-07-26 14:05:34,639 - Fetched only 0 daily bars for AAPL (less than requested 1)
+2025-07-26 14:05:34,639 - Fetched 0 daily bars for AAPL
+2025-07-26 14:05:34,639 - No minute bars available for 390 sequence length
+2025-07-26 14:05:34,639 - Skipping Grok prediction for AAPL: insufficient data
+2025-07-26 14:05:34,639 - AAPL - Current Price: $213.96, Grok 3 Prediction: 0.50, Position: 0
+2025-07-26 14:05:34,965 - Equity plot saved to equity_plot.png
+2025-07-26 14:05:34,965 - Parsed 0 trades, 0 completed, calculated total P/L: $0.00, win rate: $0.00
+2025-07-26 14:05:34,966 - Account Equity: $99994.32
+2025-07-26 14:05:34,966 - Saved equity plot to equity_plot.png
+2025-07-26 14:05:34,966 - Starting sleep
+2025-07-26 14:05:34,966 - Sleep countdown: 30 seconds remaining
+2025-07-26 14:05:44,973 - Sleep countdown: 20 seconds remaining
+2025-07-26 14:05:54,982 - Sleep countdown: 10 seconds remaining
+2025-07-26 14:06:04,992 - Completed sleep
+2025-07-26 14:06:05,001 - Fetched 390 bars for AAPL, price: $213.96
+2025-07-26 14:06:05,001 - Current position for AAPL: 0 shares
+2025-07-26 14:06:05,810 - Equity plot saved to equity_plot.png
+2025-07-26 14:06:05,823 - Fetched only 0 bars for AAPL (less than requested 390)
+2025-07-26 14:06:05,824 - Error fetching data for AAPL: single positional indexer is out-of-bounds
+2025-07-26 14:06:05,851 - Fetched only 0 daily bars for AAPL (less than requested 1)
+2025-07-26 14:06:05,851 - Fetched 0 daily bars for AAPL
+2025-07-26 14:06:05,851 - No minute bars available for 390 sequence length
+2025-07-26 14:06:05,851 - Skipping Grok prediction for AAPL: insufficient data
+2025-07-26 14:06:05,852 - AAPL - Current Price: $213.96, Grok 3 Prediction: 0.50, Position: 0
+2025-07-26 14:06:06,456 - Equity plot saved to equity_plot.png
+2025-07-26 14:06:06,456 - Parsed 0 trades, 0 completed, calculated total P/L: $0.00, win rate: $0.00
+2025-07-26 14:06:06,457 - Account Equity: $99994.32
+2025-07-26 14:06:06,457 - Saved equity plot to equity_plot.png
+2025-07-26 14:06:06,457 - Starting sleep
+2025-07-26 14:06:06,457 - Sleep countdown: 30 seconds remaining
+2025-07-26 14:06:16,465 - Sleep countdown: 20 seconds remaining
+2025-07-26 14:06:26,474 - Sleep countdown: 10 seconds remaining
+2025-07-26 14:06:36,481 - Completed sleep
+2025-07-26 14:06:36,494 - Fetched 390 bars for AAPL, price: $213.96
+2025-07-26 14:06:36,494 - Current position for AAPL: 0 shares
+2025-07-26 14:06:36,781 - Equity plot saved to equity_plot.png
+2025-07-26 14:06:36,794 - Fetched only 0 bars for AAPL (less than requested 390)
+2025-07-26 14:06:36,794 - Error fetching data for AAPL: single positional indexer is out-of-bounds
+2025-07-26 14:06:36,804 - Fetched only 0 daily bars for AAPL (less than requested 1)
+2025-07-26 14:06:36,805 - Fetched 0 daily bars for AAPL
+2025-07-26 14:06:36,805 - No minute bars available for 390 sequence length
+2025-07-26 14:06:36,805 - Skipping Grok prediction for AAPL: insufficient data
+2025-07-26 14:06:36,805 - AAPL - Current Price: $213.96, Grok 3 Prediction: 0.50, Position: 0
+2025-07-26 14:06:37,152 - Equity plot saved to equity_plot.png
+2025-07-26 14:06:37,152 - Parsed 0 trades, 0 completed, calculated total P/L: $0.00, win rate: $0.00
+2025-07-26 14:06:37,152 - Account Equity: $99994.32
+2025-07-26 14:06:37,152 - Saved equity plot to equity_plot.png
+2025-07-26 14:06:37,152 - Starting sleep
+2025-07-26 14:06:37,152 - Sleep countdown: 30 seconds remaining
+2025-07-26 14:06:47,162 - Sleep countdown: 20 seconds remaining
+2025-07-26 14:06:57,172 - Sleep countdown: 10 seconds remaining
+2025-07-26 14:07:07,181 - Completed sleep
+2025-07-26 14:07:07,192 - Fetched 390 bars for AAPL, price: $213.96
+2025-07-26 14:07:07,192 - Current position for AAPL: 0 shares
+2025-07-26 14:07:07,662 - Equity plot saved to equity_plot.png
+2025-07-26 14:07:07,675 - Fetched only 0 bars for AAPL (less than requested 390)
+2025-07-26 14:07:07,675 - Error fetching data for AAPL: single positional indexer is out-of-bounds
+2025-07-26 14:07:07,686 - Fetched only 0 daily bars for AAPL (less than requested 1)
+2025-07-26 14:07:07,686 - Fetched 0 daily bars for AAPL
+2025-07-26 14:07:07,686 - No minute bars available for 390 sequence length
+2025-07-26 14:07:07,686 - Skipping Grok prediction for AAPL: insufficient data
+2025-07-26 14:07:07,687 - AAPL - Current Price: $213.96, Grok 3 Prediction: 0.50, Position: 0
+2025-07-26 14:07:08,155 - Equity plot saved to equity_plot.png
+2025-07-26 14:07:08,155 - Parsed 0 trades, 0 completed, calculated total P/L: $0.00, win rate: $0.00
+2025-07-26 14:07:08,155 - Account Equity: $99994.32
+2025-07-26 14:07:08,155 - Saved equity plot to equity_plot.png
+2025-07-26 14:07:08,155 - Starting sleep
+2025-07-26 14:07:08,155 - Sleep countdown: 30 seconds remaining
+2025-07-26 14:07:18,165 - Sleep countdown: 20 seconds remaining
+2025-07-26 14:07:28,173 - Sleep countdown: 10 seconds remaining
+2025-07-26 14:07:38,182 - Completed sleep
+2025-07-26 14:07:38,182 - Session duration reached (elapsed: 124.2s, target: 120.0s), closing positions and stopping trading loop
+2025-07-26 14:07:38,182 - No open positions to close at session end
+2025-07-26 14:07:38,182 - Trading loop terminated
+2025-07-26 14:07:38,183 - WebSocket task cancelled and stopped
+2025-07-26 14:07:38,183 - Trading loop cleanup completed
+2025-07-26 14:07:38,183 - Trading loop completed, generating session plot
+2025-07-26 14:07:38,187 - subscribed to 
+2025-07-26 14:07:38,190 - data stream stopped
+2025-07-26 14:07:38,521 - Equity plot saved to equity_plot.png
+2025-07-26 14:07:38,521 - Session summary: Total P/L: $0.00, Final Equity: $99994.32
+2025-07-26 14:07:38,521 - Trading bot execution completed
