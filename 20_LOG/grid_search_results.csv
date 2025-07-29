@@ -1,0 +1,10 @@
+run_id,upper_threshold,lower_threshold,pl,win_rate,trades,log_file
+1,0.6,0.3,0.0,0.0,0,backtest_log_1.log
+2,0.6,0.35,0.0,0.0,0,backtest_log_2.log
+3,0.6,0.4,0.0,0.0,0,backtest_log_3.log
+4,0.65,0.3,0.0,0.0,0,backtest_log_4.log
+5,0.65,0.35,0.0,0.0,0,backtest_log_5.log
+6,0.65,0.4,0.0,0.0,0,backtest_log_6.log
+7,0.7,0.3,0.0,0.0,0,backtest_log_7.log
+8,0.7,0.35,0.0,0.0,0,backtest_log_8.log
+9,0.7,0.4,0.0,0.0,0,backtest_log_9.log
